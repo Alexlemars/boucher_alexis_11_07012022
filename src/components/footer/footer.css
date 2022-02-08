@@ -1,0 +1,25 @@
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 209px; 
+}
+.Footer-logo{
+    width: 122px;
+}
+.Footer-title{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+@media  screen and (min-width: 1200px) {
+    
+    .Footer-title{
+
+        font-size: 24px;
+    }
+}

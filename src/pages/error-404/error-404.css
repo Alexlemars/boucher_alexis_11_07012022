@@ -1,0 +1,52 @@
+.Error404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FF6060;
+    height: 600px;
+    gap: 160px;
+
+}
+.Content-error-404{
+    text-align: center;
+}
+.Number-error-404{
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 142px;
+}
+
+.Text-error-404{
+font-size: 18px;
+line-height: 142%
+}
+
+
+
+.Back-Home{
+    color: #FF6060;
+}
+@media  screen and (min-width: 1200px) {
+
+    .Error404{
+        gap: 120px;
+    }
+
+    .Content-error-404{
+        margin-top: auto;
+    }
+    .Number-error-404{
+    font-size: 250px;
+    }
+    
+    .Text-error-404{
+    font-size: 36px;
+    margin-top: 80px;
+    }
+    .Back-Home{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+}

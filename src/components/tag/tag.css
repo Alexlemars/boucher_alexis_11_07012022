@@ -1,0 +1,20 @@
+.tag{
+    display: flex;
+    gap: 10px;
+    color: white;
+    
+}
+.tag li{
+    font-size: 10px;
+    background-color: #FF6060;
+    border-radius: 5px;
+    margin-top: -5px;
+    padding:3px 20px;
+}
+
+@media  screen and (min-width: 1200px) {
+    .tag li{
+        font-size: 14px;
+
+    }
+}

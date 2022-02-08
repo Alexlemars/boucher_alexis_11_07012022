@@ -1,0 +1,28 @@
+.Banner-about{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    border-radius: 10px;
+    max-width: 1240px;
+    height: 223px;
+    margin:10px 20px;
+}
+.dropdown-about{
+    margin:10px 20px;
+
+}
+
+@media  screen and (min-width: 1200px) {
+    .Banner-about{
+        margin: auto;
+    }
+    .dropdown{
+        max-width: 1023px;
+        margin: auto;
+    }
+    
+    
+}
